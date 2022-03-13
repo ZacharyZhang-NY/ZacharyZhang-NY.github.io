@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <!-- meta tag -->
+    <meta charset="utf-8">
+    <title>松果智慧 | 物体检测</title>
+    <meta name="description" content="">
+    <!-- responsive tag -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- favicon -->
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="images/fav.png">
+    <!-- bootstrap v4 css -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <!-- font-awesome css -->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <!-- animate css -->
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <!-- hover css -->
+    <link rel="stylesheet" type="text/css" href="css/hover-min.css">
+    <!-- owl.carousel css -->
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
+    <!-- off canvas css -->
+    <link rel="stylesheet" type="text/css" href="css/off-canvas.css">
+    <!-- flaticon css  -->
+    <link rel="stylesheet" type="text/css" href="fonts/flaticon.css">
+    <!-- rsmenu CSS -->
+    <link rel="stylesheet" type="text/css" href="css/rsmenu-main.css">
+    <!-- magnific popup css -->
+    <link rel="stylesheet" type="text/css" href="css/magnific-popup.css">
+    <!-- rsmenu transitions CSS -->
+    <link rel="stylesheet" type="text/css" href="css/rsmenu-transitions.css">
+    <!-- style css -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- switch color presets css -->
+    <link id="switch_style" href="#" rel="stylesheet" type="text/css">
+    <!-- Spacing css -->
+    <link rel="stylesheet" type="text/css" href="css/spacing.css">
+    <!-- responsive css -->
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+</head>
+<body>
+
+<!-- Preloader area start here -->
+<div id="loading" class="icon-preloader">
+    <div class="loader">
+        <div class="animate3">
+            <img src="images/preloader/load.png" alt="Preloader Image animate3">
+        </div>
+    </div>
+</div>
+<!--End preloader here -->
+
+<!--Header Section Start-->
+<header id="rs-header" class="transparent-header">
+
+    <!-- Toolbar Start -->
+    <div class="toolbar-area hidden-sm hidden-xs">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-sm-7 col-xs-12">
+                    <div class="toolbar-contact">
+                        <ul>
+                            <li><i class="fa fa-envelope-o"></i><a href="mailto:info">pinon.io</a></li>
+                            <li><i class="fa fa-phone"></i><a href="tel:+123456789">(+123) 456789</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </div>
+    </div>
+    <!-- Toolbar End -->
+
+    <!-- Header Menu Start -->
+    <div class="menu-area menu-sticky">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-sm-3">
+                    <div class="logo-area">
+                        <a href="index.html"><img src="images/logo-white.png" alt="logo"></a>
+                    </div>
+                </div>
+                <div class="col-lg-9 mobile-menu-area">
+                    <div class="rs-menu-area display-flex-center">
+                        <div class="main-menu">
+                            <a class="rs-menu-toggle"><i class="fa fa-bars"></i>Menu</a>
+                            <nav class="rs-menu">
+                                <ul class="nav-menu">
+                                    <!-- Home -->
+                                    <li><a href="index-cn.html">主页</a></li>
+                                    <!-- End Home -->
+
+                                    <li class="menu-item-has-children"><a>核心业务</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="defect-cn.html">瑕疵检测</a></li>
+                                            <li><a href="pose-cn.html">姿势识别</a></li>
+                                            <li><a href="object-cn.html">物体检测</a></li>
+                                        </ul>
+                                    </li>
+
+                                    <li><a href="">企业实例</a></li>
+
+                                    <li><a href="">关于我们</a></li>
+
+                                    <li> <a href="">支持</a> </li>
+
+                                    <li> <a href="object.html">中文/EN</a> </li>
+
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header Menu End -->
+</header>
+<!--Header Section End-->
+
+<!-- Breadcrumbs Start -->
+<div class="breadcrumbs">
+    <div class="breadcrumbs-wrap">
+        <img src="images/breadcrumbs/bg.jpg" alt="Breadcrumbs Image">
+        <div class="breadcrumbs-inner">
+            <div class="container">
+                <div class="breadcrumbs-text">
+                    <h1 class="breadcrumbs-title mb-17">物体检测</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Breadcrumbs End -->
+
+<!-- About Section Start -->
+<div id="about-inner" class="about-inner pt-100 pb-100 md-pt-80 md-pb-80">
+    <div class="container">
+        <div class="row rs-vertical-middle">
+            <div class="col-lg-6 padding-0 md-mb-30">
+                <div class="image-wrap animate2">
+                    <img class="wow slideInLeft" src="images/about/obj1.png" alt="">
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="content-wrap">
+                    <div class="sec-title mb-30">
+                        <h2 class="title bg-left">多样的物体检测</h2>
+                        <p>物体检测关注特定的物体目标，要求同时获得这一目标的类别信息和位置信息。物体检测给出的是对图片前景和背景的理解，我们需要从背景中分离出感兴趣的目标，并确定这一目标的类别和位置，因而，检测模型的输出是一个列表，列表的每一项使用一个数据组给出检出目标的类别和位置。</p>
+                    </div>
+                </div>
+                <div class="about-btn">
+                    <a class="readon style2 radius" href="#neuron-sample">样例视频</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- About Section End -->
+
+<!-- Team Section Start -->
+<div id="neuron-sample" class="neuron-team pt-90 md-pt-70 md-pb-80">
+    <div class="container">
+        <div class="sec-title text-center mb-45">
+            <h2 class="title bg-center">物体检测测试视频</h2>
+        </div>
+        <div style="text-align: center;">
+            <video width="640" height="480" controls>
+                <source src="images/about/object.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+</div>
+
+<!-- Testimonial Style Start -->
+<div class="neuron-testimonial style2 pt-90 pb-70 md-pt-70 md-pb-50">
+    <div class="container">
+    </div>
+</div>
+<!-- Testimonial Style End -->
+
+<!-- Footer Start -->
+<footer id="rs-footer" class="rs-footer style2">
+    <div class="footer-top">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-12 col-sm-12 single-footer-column mb-md-30">
+                    <div class="about-widget pr-20">
+                        <div class="footer-logo">
+                            <img src="images/logo-white.png" alt="Footer Logo">
+                        </div>
+                        <div class="footer-info">
+                            <p class="footer-desc dark-color">松果智慧，来自纽约的计算机视觉领头者</p>
+                        </div>
+                        <!--                               <ul class="social-links">
+                                                           <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                                           <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                                           <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                                       </ul>-->
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-12 col-sm-12 single-footer-column">
+                </div>
+
+                <div class="col-lg-3 col-md-12 col-sm-12 single-footer-column mb-md-30">
+                    <div class="footer-menu">
+                        <h4 class="footer-title white-color">加入我们</h4>
+                        <div class="row">
+                            <div class="col-lg-6 pr-0">
+                                <ul>
+                                    <li><a href="#">领英</a></li>
+                                    <li><a href="#">发送简历</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 single-footer-column">
+                    <div class="footer-menu">
+                        <h4 class="footer-title white-color">Privacy</h4>
+                        <ul>
+                            <li><a href="privacy.html">Privacy</a></li>
+                            <li><a href="contact.html">Legal</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="copyright text-center">
+                <p>© Copyrights 2022 <a href="#">PinOn, Inc.</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Footer End -->
+
+<!-- modernizr js -->
+<script src="js/modernizr-2.8.3.min.js"></script>
+<!-- jquery latest version -->
+<script src="js/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+        // Add smooth scrolling to all links
+        $("a").on('click', function(event) {
+
+            // Make sure this.hash has a value before overriding default behavior
+            if (this.hash !== "") {
+                // Prevent default anchor click behavior
+                event.preventDefault();
+
+                // Store hash
+                var hash = this.hash;
+
+                // Using jQuery's animate() method to add smooth page scroll
+                // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 500, function(){
+
+                    // Add hash (#) to URL when done scrolling (default click behavior)
+                    window.location.hash = hash;
+                });
+            } // End if
+        });
+    });
+</script>
+<!-- counter top js -->
+<script src="js/jquery.counterup.min.js"></script>
+<script src="js/waypoints.min.js"></script>
+<!-- bootstrap js -->
+<script src="js/bootstrap.min.js"></script>
+<!-- owl.carousel js -->
+<script src="js/owl.carousel.min.js"></script>
+<!-- magnific popup -->
+<script src="js/jquery.magnific-popup.min.js"></script>
+<!-- wow js -->
+<script src="js/wow.min.js"></script>
+<!-- rsmenu js -->
+<script src="js/rsmenu-main.js"></script>
+<!-- plugins js -->
+<script src="js/plugins.js"></script>
+<!-- Contact js -->
+<script src="js/contact.form.js"></script>
+<!-- main js -->
+<script src="js/main.js"></script>
+</body>
+</html>
